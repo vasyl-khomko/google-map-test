@@ -1,0 +1,57 @@
+body {
+    font-size: 10px;
+}
+
+#map-canvas {
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 240px;
+}
+
+
+.float-right {
+  float: right;
+}
+
+h4.venues {
+  margin: 0px;
+  padding: 7px;
+  width: 100px;
+}
+
+@media (min-width: 640px) {
+  body {
+    font-size: 11px;
+  }
+  #map-canvas {
+    min-height: 305px;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  #map-canvas {
+    width: 720px;
+    height: 405px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    font-size: 13px;
+  }
+  #map-canvas {
+    width: 940px;
+    height: 538px;   
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 14px;
+  }
+  #map-canvas {
+    width: 1140px;
+    height: 600px;
+
+  }
+}

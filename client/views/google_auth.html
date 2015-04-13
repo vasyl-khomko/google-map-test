@@ -1,0 +1,8 @@
+<template name="googleAuth">
+	{{#if currentUser}}
+	<p class="navbar-text">{{currentUser.profile.name}}</p>
+	<button id="logout" type="button" class="btn btn-default navbar-btn">Sign out</button>
+	{{else}}
+	<button id="login" type="button" class="btn btn-default navbar-btn">Sign in with Google</button>
+	{{/if}}
+</template>
